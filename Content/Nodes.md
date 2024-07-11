@@ -127,6 +127,10 @@ Node的security指定Node的安全等级
 - `443` DLC特供,ssl(https)端口
 - `192` DLC特供,Pacific飞机端口
 - `554` DLC特供,原版中未出现,RTSP端口(使用RTSPCrack破解)
+- `9418` DLC特供,git版本控制端口 (无解)
+- `211` Transfer端口(无解)
+- `3724` Blizzard Updater端口(无解)
+- `3659` eos端口(无解)
 
 ### proxy
 ```xml
@@ -201,6 +205,11 @@ Node的security指定Node的安全等级
 - `medical` KBT端口(104)
 - `smtp` smtp端口(25)
 - `sql` sql数据库端口(1433)
+- `rtsp` rtsp端口(554)
+- `version` 版本控制端口(无解)(9418)
+- `blizzard` blizzard端口(无解)(3724)
+- `transfer` transfer端口(无解)(211)
+- `eos` eos端口(无解)(3659)
 
 ### tracker
 ```xml
